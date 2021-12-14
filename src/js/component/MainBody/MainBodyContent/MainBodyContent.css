@@ -1,0 +1,13 @@
+.main-left, .main-right{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.882;
+    color: #000000;
+}
+
+.main-left{
+    font-size: 1.5rem;
+}
+.main-right{
+    font-size: 1.1rem;
+}

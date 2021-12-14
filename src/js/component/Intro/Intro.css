@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+section{
+    height: 100vh;
+    width: 100%; 
+}
+
+.main-col {
+    height: 80vh;
+}
+
+.hero-pic{
+    max-height: 90%;
+    max-width: 100%;
+    float: right;
+}
+
+/* Intro */
+#intro-name{
+    color: #ffa304;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    letter-spacing: normal;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#intro-title{
+    font-size: 4.875rem;
+    line-height: 5.75rem;
+    letter-spacing: -1px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+}
+
+/* Title media query*/
+@media (max-width: 576px) {  
+    #intro-title {font-size: 4rem; line-height: 5rem; width: 450px;}
+}
+
+@media (min-width: 768px) {  
+    #intro-title {font-size: 5.5rem; line-height: 5.75rem; width: 700px;}
+}
+@media (min-width: 992px) { 
+    #intro-title {font-size: 5rem; line-height: 6rem; width: 750px;}
+}
+@media (min-width: 1200px) {  
+    #intro-title {font-size: 4.875rem; line-height: 5.75rem; width: 750px;}
+}
+
+/* Scroll text with the yellow bar */
+.scroll-button {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    color: rgba(255, 255, 255, 0.3);
+}
+.line-intro {
+    content: "";
+    height: 1px;
+    width: 4.875rem;
+    background-color: #ffa304;
+}
+

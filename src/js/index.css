@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400&display=swap');
+
+@import "./component/Intro/Intro.css";
+@import "./component/Navbar/Navbar.css";
+@import "./component/MainBody/MainBody.css";
+@import "./component/MainBody/MainBodyButtons/MainBodyButtons.css";
+@import "./component/MainBody/MainBodyContent/MainBodyContent.css";

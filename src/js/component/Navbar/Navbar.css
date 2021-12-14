@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #050505 !important;
+    font-size: 14px;
+    letter-spacing: .25rem;
+    position: fixed;
+    width: 100%;
+
+}
+
+.nav-right{   
+    padding: 0 15px;
+    font-size: 20px;
+}

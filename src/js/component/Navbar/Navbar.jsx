@@ -23,7 +23,9 @@ const Navbar = () => {
                         </Link>
 						<NavItem title="SERVICIOS" />
 						<NavItem title="TRABAJOS" />
-						<NavItem title="¿HOLA?" />
+						<Link to="footer">
+                            <NavItem title="¿HOLA?" />
+                        </Link>
 					</ul>
 
 					<div className="nav-right">

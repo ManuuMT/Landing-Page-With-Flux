@@ -1,0 +1,54 @@
+/* FooterCta */
+.line{
+    width: 112px;
+    height: 20px;
+    border-bottom: 2px solid #ffa304;
+}
+.contact-text{
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/* FooterDescription */
+.contact-email{
+    font-size: 6vw;
+    text-decoration: none;
+    /*border-bottom: 1px solid rgba($color: #ffff, $alpha: 0.25); */
+    border-bottom: 1px solid rgba(rgba(255, 255, 255, 0.25), green, blue, alpha);
+    color: #ffa304;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.personal-text{
+    font-size: 2.75rem;
+    line-height: 1.259;
+    color: white;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.contact-link{
+    text-decoration: none;
+    border-bottom: 1px solid rgba(rgba(255, 255, 255, 0.25), green, blue, alpha);
+    color: #ffa304;
+}
+
+/* FooterContact */
+.mobile-number, .social-media{
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(rgba(255, 255, 255, 0.35), green, blue, alpha);
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.mobile-number > a, .social-media > p > a{
+    font-size: 2rem;
+    line-height: 1.259;
+    color: white;
+    text-decoration: none;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+/* FooterCopy */
+.copy-text{
+    border-bottom: 1px solid rgba(rgba(255, 255, 255, 0.35), green, blue, alpha);
+}

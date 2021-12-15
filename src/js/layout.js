@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { Inicio } from "./views/Inicio.jsx";
-import { SobreMi } from "./views/SobreMi.jsx";
+import { Inicio } from "./views/Inicio/Inicio.jsx";
+import { SobreMi } from "./views/SobreMi/SobreMi.jsx";
 import injectContext from "./store/appContext";
 
 

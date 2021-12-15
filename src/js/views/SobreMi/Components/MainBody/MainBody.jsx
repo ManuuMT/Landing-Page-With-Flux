@@ -1,7 +1,7 @@
 import React from "react";
 
-import MainBodyButtons from "./MainBodyButtons/MainBodyButtons.jsx";
-import MainBodyContent from "./MainBodyContent/MainBodyContent.jsx";
+import MainBodyButtons from "../MainBodyButtons/MainBodyButtons.jsx";
+import MainBodyContent from "../MainBodyContent/MainBodyContent.jsx";
 
 
 const MainBody = () => {

@@ -25,7 +25,7 @@ const Layout = () => {
 							<Hola />
 						</Route>
 						<Route>
-							<h1>Not found!</h1>
+							<h1>Page Not found!</h1>
 						</Route>
 					</Switch>
 			</BrowserRouter>
